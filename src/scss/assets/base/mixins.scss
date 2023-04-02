@@ -1,0 +1,9 @@
+@mixin primary-copy-font {
+  font-family: "Roboto", sans-serif;
+}
+
+@mixin desktop-and-less {
+  @media (max-width: 1200px) {
+    @content;
+  }
+}
