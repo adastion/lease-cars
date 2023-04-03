@@ -1,0 +1,15 @@
+.menu {
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+  }
+
+  &__item {
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  &__link {
+  }
+}

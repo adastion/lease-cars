@@ -1,13 +1,26 @@
 @font-face {
   font-weight: 400;
   font-style: normal;
-  font-family: 'Roboto';
+  font-family: 'Inter';
 
-  src: url('../fonts/roboto-regular/roboto.woff2') format('woff2');
-  src: url('../fonts/roboto-regular/roboto.eot') format('embedded-opentype'),
-    url('../fonts/roboto-regular/roboto.otf') format('otf'),
-    url('../fonts/roboto-regular/roboto.svg') format('svg'),
-    url('../fonts/roboto-regular/roboto.ttf') format('truetype'),
-    url('../fonts/roboto-regular/roboto.woff') format('woff');
+  src: url('../fonts/Inter-Light.woff2') format('woff2');
+  src: url('../fonts/Inter-Light.eot') format('embedded-opentype'),
+    url('../fonts/Inter-Light.otf') format('otf'),
+    url('../fonts/Inter-Light.svg') format('svg'),
+    url('../fonts/Inter-Light.ttf') format('truetype'),
+    url('../fonts/Inter-Light.woff') format('woff');
+}
+
+@font-face {
+  font-weight: 600;
+  font-style: normal;
+  font-family: 'Inter';
+
+  src: url('../fonts/Inter-Bold.woff2') format('woff2');
+  src: url('../fonts/Inter-Bold.eot') format('embedded-opentype'),
+    url('../fonts/Inter-Bold.otf') format('otf'),
+    url('../fonts/Inter-Bold.svg') format('svg'),
+    url('../fonts/Inter-Bold.ttf') format('truetype'),
+    url('../fonts/Inter-Bold.woff') format('woff');
 }
 

@@ -2,9 +2,14 @@ html {
   @include primary-copy-font;
   color: $base-text-color;
   font-size: 16px;
-  font-weight: normal;
+  font-weight: 400;
   line-height: normal;
   height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: $white;
 }
 
 .visually-hidden {
