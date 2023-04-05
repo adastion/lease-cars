@@ -27,7 +27,8 @@
     "gulp-svg-sprite": "^2.0.3",
     "gulp-svgmin": "^4.1.0",
     "gulp-webp": "^4.0.1",
-    "sass": "^1.60.0"
+    "sass": "^1.60.0",
+    "swiper": "^9.2.0"
   },
   "dependencies": {
     "webpack-stream": "^7.0.0"

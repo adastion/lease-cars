@@ -1,0 +1,26 @@
+.header-top {
+  text-align: center;
+  background: url('../images/background-slider.jpg') no-repeat;
+  background-position: center;
+  color: $white;
+  
+  &__title {
+    font-size: 96px;
+    line-height: 1.21;
+    max-width: 874px;
+    padding: 247px 0 40px;
+    color: $white;
+  }
+  
+  &__btn {
+    display: inline-block;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 36px;
+    background: $cod_gray;
+    color: $white;
+    max-width: 430px;
+    width: 100%;
+    padding: 23px;
+  }
+}
