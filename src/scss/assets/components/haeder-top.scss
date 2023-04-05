@@ -1,17 +1,21 @@
 .header-top {
   text-align: center;
-  background: url('../images/background-slider.jpg') no-repeat;
   background-position: center;
   color: $white;
-  
+  position: absolute;
+  top: 248px;
+  left: 0;
+  right: 0;
+  z-index: 11;
+
   &__title {
     font-size: 96px;
     line-height: 1.21;
     max-width: 874px;
-    padding: 247px 0 40px;
     color: $white;
+    margin: 0 auto;
   }
-  
+
   &__btn {
     display: inline-block;
     font-weight: 700;
@@ -21,6 +25,6 @@
     color: $white;
     max-width: 430px;
     width: 100%;
-    padding: 23px;
+    margin-top: 28px;
   }
 }

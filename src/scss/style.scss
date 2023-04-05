@@ -3,6 +3,9 @@
 @import 'assets/base/variables';
 @import 'assets/base/mixins';
 @import 'assets/base/base';
+@import '../../node_modules/swiper/swiper.scss';
+@import '../../node_modules/swiper/modules/pagination/pagination.scss';
+
 
 @import 'assets/components/wrapper';
 @import 'assets/components/container';
@@ -10,5 +13,6 @@
 @import 'assets/components/menu';
 @import 'assets/components/main';
 @import 'assets/components/haeder-top';
+@import 'assets/components/slider';
 @import 'assets/components/app';
 @import 'assets/components/footer';
