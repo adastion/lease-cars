@@ -1,0 +1,45 @@
+.advantages {
+
+  &__title {
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+
+  &__list {
+    display: flex;
+    gap: 4rem;
+  }
+
+  &__item {
+    display: grid;
+    justify-items: center;
+    gap: 3rem;
+    max-width: 27rem;
+  }
+
+  &__icon {
+    width: 15rem;
+    height: 15rem;
+    border: 0.2rem solid $blue_ribbon;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & svg {
+      width: 6rem;
+      height: 3.9rem;
+      fill: $blue_ribbon;
+      stroke: $blue_ribbon;
+    }
+  }
+
+  &__subtitle {
+  }
+
+  &__text {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.3;
+  }
+}

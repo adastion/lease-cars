@@ -2,19 +2,20 @@
 import Swiper from "swiper/bundle";
 
 // init Swiper:
-const swiper = new Swiper(".slider", {
+const swiper = new Swiper(".swiper", {
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
+
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
   },
 
-  autoplay: {
-    delay: 5000,
-    disableOnInteraction: false,
-  },
 
   effect: "fade",
   fadeEffect: {
-    crossFade: false,
+    crossFade: true,
   },
 });
