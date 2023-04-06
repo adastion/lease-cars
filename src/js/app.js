@@ -1,25 +1,20 @@
 // swiper
-import Swiper from 'swiper/bundle';
+import Swiper from "swiper/bundle";
 
 // init Swiper:
-const swiper = new Swiper('.slider', {
-  autoplay: {
-    delay: 3000,
-  },
-
-  effect: 'fade',
-  fadeEffect: {
-    crossFade: true
-  },
-
+const swiper = new Swiper(".slider", {
   pagination: {
     el: ".swiper-pagination",
+    clickable: true,
   },
 
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+  autoplay: {
+    delay: 5000,
+    disableOnInteraction: false,
   },
 
-  loop: true,
+  effect: "fade",
+  fadeEffect: {
+    crossFade: false,
+  },
 });
