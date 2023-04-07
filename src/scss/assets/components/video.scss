@@ -1,0 +1,16 @@
+.video {
+  text-align: center;
+  
+  &__title {
+    margin-bottom: 2rem;
+  }
+
+  &__subtitle {
+    margin-bottom: 5rem;
+  }
+
+  &__content {
+    width: 100rem;
+    aspect-ratio: 16/9;
+  }
+}

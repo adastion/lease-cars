@@ -16,34 +16,40 @@
 
   &__list {
     display: grid;
+    justify-items: end;
     gap: 4rem;
     margin-left: 7.7rem;
+    counter-reset: counterNum;
   }
 
   &__item {
     display: flex;
-    gap: 14rem;
+    gap: 4rem;
+    width: 100%;
+    padding-right: 1.5rem;
+    justify-content: space-between;
     align-items: center;
-  }
 
-  &__num {
-    width: 10rem;
-    height: 10rem;
-    font-size: 4.8rem;
-    font-weight: 700;
-    color: $white;
-    background: $blue_ribbon;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    flex-grow: 0;
-    flex-shrink: 0;
-    flex-basis: 1;
+    &::before {
+      counter-increment: counterNum;
+      content: counter(counterNum);
+      width: 10rem;
+      height: 10rem;
+      font-size: 4.8rem;
+      font-weight: 700;
+      color: $white;
+      background: $blue_ribbon;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      flex-grow: 0;
+      flex-shrink: 0;
+      flex-basis: 1;
+    }
   }
 
   &__article {
     max-width: 27rem;
   }
 }
-
