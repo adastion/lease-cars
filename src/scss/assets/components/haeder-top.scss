@@ -3,7 +3,7 @@
   background-position: center;
   color: $white;
   position: absolute;
-  top: 248px;
+  top: 24.8rem;
   left: 0;
   right: 0;
   z-index: 11;
@@ -11,12 +11,12 @@
   &__title {
     font-size: 9.6rem;
     line-height: 1.21;
-    max-width: 874px;
+    max-width: 87.4rem;
     color: $white;
     margin: 0 auto;
   }
 
   &__btn {
-    margin-top: 28px;
+    margin-top: 2.8rem;
   }
 }
