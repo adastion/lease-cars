@@ -1,0 +1,28 @@
+.cotalog {
+
+  &__title {
+  }
+
+  &__wrap-buttons {
+  }
+
+  &__btn-tab {
+  }
+
+  &__content-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10rem 4rem;
+  }
+
+  &__show-more {
+    display: flex;
+    justify-content: center;
+    margin: 7rem 0;
+    width: 100%;
+    
+  }
+}
+
+
