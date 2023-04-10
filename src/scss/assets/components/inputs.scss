@@ -5,6 +5,10 @@
   border-radius: 0;
   border: 0.2rem solid $blue_ribbon;
   font-size: 1.6rem;
+  
+  &:focus-within {
+    outline: 0.2rem solid $blue_ribbon;
+  }
 
   &--textarea {
     min-height: 29rem;

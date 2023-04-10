@@ -13,5 +13,11 @@
 
   &__link {
     color: $white;
+
+    &:hover,
+    &:focus-within,
+    &.active {
+      color: $blue_ribbon;
+    }
   }
 }

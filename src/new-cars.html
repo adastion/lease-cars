@@ -19,7 +19,7 @@
           </a>
           <nav class="menu">
             <ul class="menu__list">
-              <li class="menu__item"><a href="new-cars.html" class="menu__link">NEW CARS</a></li>
+              <li class="menu__item"><a href="new-cars.html" class="menu__link active">NEW CARS</a></li>
               <li class="menu__item"><a href="#" class="menu__link">PRE-OWNED CARS</a></li>
               <li class="menu__item"><a href="#" class="menu__link">FINANCE</a></li>
               <li class="menu__item"><a href="#" class="menu__link">LEASE VS BUY</a></li>
@@ -31,15 +31,17 @@
     </header>
     <main class="main">
       <section class="cotalog">
-        <div class="container">
-          <h2 class="cotalog__title"></h2>
-          <div class="cotalog__wrap-buttons">
-            <button class="cotalog__btn-tab">Car and Minivan</button>
-            <button class="cotalog__btn-tab">Trucks</button>
-            <button class="cotalog__btn-tab">Crossovers & SUVs</button>
-            <button class="cotalog__btn-tab">Electrified</button>
+        <div class="container container--main">
+          <div class="cotalog__tabs">
+            <h2 class="cotalog__title">Choose your car</h2>
+            <div class="cotalog__wrap-buttons">
+              <button class="cotalog__btn-tab active">Car and Minivan</button>
+              <button class="cotalog__btn-tab">Trucks</button>
+              <button class="cotalog__btn-tab">Crossovers & SUVs</button>
+              <button class="cotalog__btn-tab">Electrified</button>
+            </div>
           </div>
-          <ul class="cotalog__content-list"> 
+          <ul class="cotalog__content-list">
             <li class="cards">
               <div class="cards__preview cards__border">
                 <img src="images/preview-car-1.jpg" alt="preview-car">
@@ -100,7 +102,7 @@
                 <img src="images/preview-car-6.jpg" alt="preview-car">
               </div>
               <div class="cards__inner-info cards__border">
-                <h3 class="cards__title">Santa  Fe 2023</h3>
+                <h3 class="cards__title">Santa Fe 2023</h3>
                 <p class="cards__subtitle">starting from $ 39900</p>
                 <p class="cards__price">$ 739/mo</p>
               </div>
@@ -178,6 +180,23 @@
           </div>
         </div>
       </section>
+      <section class="news">
+        <div class="container container--main">
+          <ul class="news__list">
+            <li class="news__item">
+              <img class="news__img" src="images/news-pic-1.jpg" alt="image">
+              <h3 class="news__title">An easier way to buy your next Toyota</h3>
+              <a href="#" class="btn btn--min news__link">more</a>
+            </li>
+            <li class="news__item">
+              <img class="news__img" src="images/news-pic-2.jpg" alt="image">
+              <h3 class="news__title">A Guide to Road-Tripping With Pets</h3>
+              <a href="#" class="btn btn--min news__link">more</a>
+            </li>
+          </ul>
+          <button class="btn news__btn">show more</button>
+        </div>
+      </section>
     </main>
     <footer class="footer">
       <div class="container container--footer">
@@ -244,7 +263,6 @@
       </div>
     </footer>
   </div>
-
   <script src="js/app.min.js"></script>
 </body>
 

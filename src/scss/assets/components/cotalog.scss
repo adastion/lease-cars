@@ -1,12 +1,32 @@
 .cotalog {
-
   &__title {
   }
 
   &__wrap-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem 8rem;
+    margin-top: 5rem;
+  }
+
+  &__tabs {
+    text-align: center;
   }
 
   &__btn-tab {
+    font-size: 2.4em;
+    font-weight: 700;
+    line-height: 1.2;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    &:hover,
+    &.active {
+      color: $blue_ribbon;
+    }
   }
 
   &__content-list {
@@ -14,15 +34,13 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 10rem 4rem;
+    margin-top: 10rem;
   }
 
   &__show-more {
     display: flex;
     justify-content: center;
-    margin: 7rem 0;
+    margin-top: 7rem;
     width: 100%;
-    
   }
 }
-
-
