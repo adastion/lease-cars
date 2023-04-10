@@ -32,14 +32,18 @@
   }
 
   &__btn {
-    margin: 0 auto;
+    text-align: center;
     color: $blue_ribbon;
     padding: 0.2rem 0;
     font-size: 1.6rem;
     transition: all 0.3s;
+    outline: none;
+    width: 100%;
 
-    &:hover {
-      color: $cod_gray;
+    &:hover,
+    &:focus-within {
+      color: $white;
+      background: $blue_ribbon;
     }
   }
 }
