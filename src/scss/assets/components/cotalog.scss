@@ -30,11 +30,15 @@
   }
 
   &__content-list {
-    display: flex;
+    display: none;
     flex-wrap: wrap;
     justify-content: center;
     gap: 10rem 4rem;
     margin-top: 10rem;
+
+    &.active {
+      display: flex;
+    }
   }
 
   &__show-more {

@@ -35,13 +35,13 @@
           <div class="cotalog__tabs">
             <h2 class="cotalog__title">Choose your car</h2>
             <div class="cotalog__wrap-buttons">
-              <button class="cotalog__btn-tab active" data-content="contetn-1">Car and Minivan</button>
-              <button class="cotalog__btn-tab" data-content="contetn-2">Trucks</button>
-              <button class="cotalog__btn-tab" data-content="contetn-3">Crossovers & SUVs</button>
-              <button class="cotalog__btn-tab" data-content="contetn-4">Electrified</button>
+              <button class="cotalog__btn-tab active" data-product="contetn-1">Car and Minivan</button>
+              <button class="cotalog__btn-tab" data-product="contetn-2">Trucks</button>
+              <button class="cotalog__btn-tab" data-product="contetn-3">Crossovers & SUVs</button>
+              <button class="cotalog__btn-tab" data-product="contetn-4">Electrified</button>
             </div>
           </div>
-          <ul class="cotalog__content-list">
+          <ul class="cotalog__content-list active" id="contetn-1">
             <li class="cards">
               <div class="cards__preview cards__border">
                 <img src="images/preview-car-1.jpg" alt="preview-car">
@@ -175,6 +175,9 @@
               <a href="#" class="cards__btn">see details</a>
             </li>
           </ul>
+          <ul class="cotalog__content-list" id="contetn-2">2</ul>
+          <ul class="cotalog__content-list" id="contetn-3">3</ul>
+          <ul class="cotalog__content-list" id="contetn-3">4</ul>
           <div class="cotalog__show-more">
             <button class="btn">SHOW MORE</button>
           </div>
@@ -182,7 +185,7 @@
       </section>
       <section class="news">
         <div class="container container--main">
-          <ul class="news__list" id="contetn-1">
+          <ul class="news__list">
             <li class="news__item">
               <img class="news__img" src="images/news-pic-1.jpg" alt="image">
               <h3 class="news__title">An easier way to buy your next Toyota</h3>
