@@ -8,6 +8,10 @@
   }
 
   &__link {
+    &:hover,
+    &:focus-within {
+      opacity: 0.3;
+    }
   }
 
   &__image {

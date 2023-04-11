@@ -29,7 +29,7 @@ tabBtn.forEach((item) => {
 
 function show(event) {
   const tabTarget = event.currentTarget;
-  const btn = tabTarget.dataset.product; 
+  const btn = tabTarget.dataset.product;
 
   tabBtn.forEach((item) => {
     item.classList.remove("active");
@@ -37,9 +37,9 @@ function show(event) {
 
   tabTarget.classList.add("active");
 
-  tabContent.forEach((item)=> {
-    item.classList.remove('active');
-  })
+  tabContent.forEach((item) => {
+    item.classList.remove("active");
+  });
 
-  document.querySelector(`#${btn}`).classList.add('active');
+  document.querySelector(`#${btn}`).classList.add("active");
 }

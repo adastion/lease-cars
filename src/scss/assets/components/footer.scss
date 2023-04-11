@@ -29,6 +29,11 @@
   &__link {
     color: $white;
     font-size: 1.6rem;
+
+    &:hover,
+    &:focus-within {
+      color: $blue_ribbon;
+    }
   }
 
   &__copyright {
