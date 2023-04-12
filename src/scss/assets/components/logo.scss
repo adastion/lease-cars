@@ -1,0 +1,9 @@
+.logo {
+
+  @include desktop-and-less {
+    width: vw(83);
+  }
+
+  &__img {
+  }
+}

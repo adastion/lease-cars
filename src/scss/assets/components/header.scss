@@ -1,6 +1,10 @@
 .header {
-  padding: 45px 0 40px;
+  padding:  4.5rem 0 4rem;
   background: $cod_gray;
+
+  @include desktop-and-less {
+    padding: vw(45) 0 vw(40);
+  }
 
   &--main {
     background: transparent;

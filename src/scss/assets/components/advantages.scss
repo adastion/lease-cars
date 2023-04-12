@@ -2,11 +2,21 @@
   &__title {
     text-align: center;
     margin-bottom: 5rem;
+
+    @include desktop-and-less {
+      margin-bottom: vw(50);
+    }
   }
 
   &__list {
     display: flex;
     gap: 4rem;
+
+    @include desktop-and-less {
+      gap: vw(40);
+      flex-wrap: wrap;
+      justify-content: center;
+    }
   }
 
   &__item {
@@ -14,6 +24,10 @@
     justify-items: center;
     gap: 3rem;
     max-width: 27rem;
+
+    @include desktop-and-less {
+      gap: vw(30);
+    }
   }
 
   &__icon {
@@ -30,6 +44,17 @@
       height: 3.9rem;
       fill: $blue_ribbon;
       stroke: $blue_ribbon;
+    }
+
+    @include desktop-and-less {
+      width: vw(150);
+      height: vw(150);
+      border: vw(2) solid $blue_ribbon;
+
+      & svg {
+        width: vw(60);
+        height: vw(39);
+      }
     }
   }
 

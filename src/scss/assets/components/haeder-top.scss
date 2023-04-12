@@ -8,15 +8,27 @@
   right: 0;
   z-index: 11;
 
+  @include desktop-and-less {
+    top: vw(248);
+  }
+
   &__title {
     font-size: 9.6rem;
     line-height: 1.21;
     max-width: 87.4rem;
     color: $white;
     margin: 0 auto;
+
+    @include desktop-and-less {
+      font-size: vw(96);
+    }
   }
 
   &__btn {
     margin-top: 2.8rem;
+
+    @include desktop-and-less {
+      margin-top: vw(28);
+    }
   }
 }

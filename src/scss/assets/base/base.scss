@@ -11,12 +11,16 @@ body {
   height: 100%;
 }
 
+@function vw($val, $base: 992) {
+  @return calc($val / $base) * 100vw;
+}
+
 a {
   text-decoration: none;
 }
 
 h1,
-h2, 
+h2,
 h3 {
   font-weight: 700;
 }
@@ -31,6 +35,20 @@ h3 {
 
 p {
   font-size: 1.6rem;
+}
+
+@include desktop-and-less {
+  h2 {
+    font-size: vw(48);
+  }
+  
+  h3 {
+    font-size: vw(24);
+  }
+  
+  p {
+    font-size: vw(16);
+  }
 }
 
 .visually-hidden {

@@ -12,6 +12,10 @@
   align-items: center;
   transition: all 0.3s;
 
+  @include desktop-and-less {
+    padding: vw(13) vw(61);
+  }
+
   &:hover,
   &:focus-within {
     background: $blue_ribbon;
@@ -24,6 +28,12 @@
     max-width: 43rem;
     width: 100%;
     padding: 2.3rem 0;
+    
+    @include desktop-and-less {
+      max-width: vw(430);
+      padding: vw(23) 0;
+      font-size: vw(36);
+    }
   }
 
   &--min {
@@ -31,6 +41,8 @@
     text-transform: lowercase;
     text-align: center;
     padding: 0.8rem 2rem;
+
+    padding: vw(8) vw(20);
 
     &:hover,
     &:focus-within {
