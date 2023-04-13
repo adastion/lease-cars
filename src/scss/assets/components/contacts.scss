@@ -1,9 +1,6 @@
 .contacts {
   text-align: center;
 
-  &__title {
-  }
-
   &__subtitle {
     margin-top: 2rem;
 
@@ -25,9 +22,6 @@
       margin-top: vw(50);
       gap: vw(50);
     }
-  }
-
-  &__input {
   }
 
   &__message {
