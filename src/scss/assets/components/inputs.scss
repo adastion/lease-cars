@@ -9,8 +9,18 @@
   &:focus-within {
     outline: 0.2rem solid $blue_ribbon;
   }
+  
+  @include desktop-and-less {
+    padding: vw(18) vw(20);
+    font-size: vw(36);
+    border: vw(2) solid $blue_ribbon;
+  }
 
   &--textarea {
     min-height: 29rem;
+
+    @include desktop-and-less {
+      min-height: vw(290);
+    }
   }
 }

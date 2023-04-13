@@ -64,9 +64,6 @@
     }
   }
 
-  &__copyright {
-  }
-
   &__text {
     text-align: center;
     max-width: 80.6rem;
@@ -84,17 +81,11 @@
     color: $white;
   }
 
-  &__copyright-nav {
-  }
-
   &__copyright-list {
     display: flex;
     justify-content: center;
     gap: 4rem;
     flex-wrap: wrap;
-  }
-
-  &__copyright-item {
   }
 
   &__copyright-link {

@@ -11,6 +11,10 @@
     grid-template-columns: 1fr 8rem;
     align-items: center;
     gap: 3rem;
+
+    @include desktop-and-less {
+      justify-items: center;
+    }
   }
 
   &__img {
@@ -18,9 +22,10 @@
     aspect-ratio: 16/7.18;
     object-fit: cover;
     grid-column: 1/3;
-  }
 
-  &__title {
+    @include desktop-and-less {
+      max-width: vw(960);
+    }
   }
 
   &__link {

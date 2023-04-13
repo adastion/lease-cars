@@ -6,6 +6,10 @@
 
   &__subtitle {
     margin-top: 2rem;
+
+    @include desktop-and-less {
+      margin-top: vw(20);
+    }
   }
 
   &__form {
@@ -15,6 +19,12 @@
     gap: 5rem;
     max-width: 58rem;
     width: 100%;
+
+    @include desktop-and-less {
+      grid-template-columns: 1fr;
+      margin-top: vw(50);
+      gap: vw(50);
+    }
   }
 
   &__input {
@@ -23,14 +33,26 @@
   &__message {
     grid-column: 1/3;
     resize: none;
+
+    @include desktop-and-less {
+      grid-column: 1/2;
+    }
   }
 
   &__wrap-buttons {
     grid-column: 1/3;
+
+    @include desktop-and-less {
+      grid-column: 1/2;
+    }
   }
 
   &__btn {
     max-width: 18.4rem;
     margin: 0 auto;
+
+    @include desktop-and-less {
+      max-width: vw(184);
+    }
   }
 }
