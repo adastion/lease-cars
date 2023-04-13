@@ -1,16 +1,28 @@
 .video {
   text-align: center;
-  
+
   &__title {
     margin-bottom: 2rem;
+
+    @include desktop-and-less {
+      margin-bottom: vw(20);
+    }
   }
 
   &__subtitle {
     margin-bottom: 5rem;
+
+    @include desktop-and-less {
+      margin-bottom: vw(20);
+    }
   }
 
   &__content {
     width: 100rem;
     aspect-ratio: 16/9;
+
+    @include desktop-and-less {
+      width: vw(1000);
+    }
   }
 }
