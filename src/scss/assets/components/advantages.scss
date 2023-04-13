@@ -1,5 +1,5 @@
 .advantages {
-s  &__title {
+  &__title {
     text-align: center;
     margin-bottom: 5rem;
 
@@ -16,7 +16,11 @@ s  &__title {
 
     @include desktop-and-less {
       gap: vw(40);
-      grid-template-columns: repeat(2, vw(600));
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include tablet-and-less {
+      grid-template-columns: 1fr;
     }
   }
 
@@ -28,7 +32,7 @@ s  &__title {
 
     @include desktop-and-less {
       gap: vw(30);
-      max-width: 100%;
+      max-width: none;
     }
   }
 
