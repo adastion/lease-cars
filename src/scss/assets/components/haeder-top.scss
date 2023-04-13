@@ -9,7 +9,7 @@
   z-index: 11;
 
   @include desktop-and-less {
-    top: vw(248);
+    top: vw(148);
   }
 
   &__title {
@@ -20,7 +20,7 @@
     margin: 0 auto;
 
     @include desktop-and-less {
-      font-size: vw(96);
+      font-size: vw(76);
     }
   }
 

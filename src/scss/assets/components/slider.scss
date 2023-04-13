@@ -32,18 +32,35 @@
   border-radius: 0;
   background: $cod_gray;
   opacity: 1;
+
+  @include desktop-and-less {
+    width: vw(120);
+    height: vw(3);
+  }
 }
 
 .swiper-pagination-bullet-active {
   height: 6px;
   background: $white;
+
+  @include desktop-and-less {
+    height: vw(6);
+  }
 }
 
 .swiper-pagination-horizontal.swiper-pagination-bullets
   .swiper-pagination-bullet {
   margin: 0 15px;
+
+  @include desktop-and-less {
+    margin: 0 vw(15);
+  }
 }
 
 .swiper-horizontal > .swiper-pagination-bullets {
   margin-bottom: 92px;
+  
+  @include desktop-and-less {
+    margin-bottom: vw(92);
+  }
 }

@@ -13,7 +13,7 @@
   transition: all 0.3s;
 
   @include desktop-and-less {
-    padding: vw(13) vw(61);
+    padding: vw(10) vw(58);
   }
 
   &:hover,
@@ -30,9 +30,9 @@
     padding: 2.3rem 0;
     
     @include desktop-and-less {
-      max-width: vw(430);
-      padding: vw(23) 0;
-      font-size: vw(36);
+      max-width: vw(360);
+      padding: vw(20) 0;
+      font-size: vw(30);
     }
   }
 

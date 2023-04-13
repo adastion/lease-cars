@@ -39,15 +39,15 @@ p {
 
 @include desktop-and-less {
   h2 {
-    font-size: vw(48);
+    font-size: vw(60);
   }
   
   h3 {
-    font-size: vw(24);
+    font-size: vw(36);
   }
   
   p {
-    font-size: vw(16);
+    font-size: vw(30);
   }
 }
 
