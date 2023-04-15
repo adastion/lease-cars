@@ -43,3 +43,12 @@ function show(event) {
 
   document.querySelector(`#${btn}`).classList.add("active");
 }
+
+
+// Button menu
+const btnMenu = document.querySelector('.menu__btn-menu');
+const menu = document.querySelector('.menu__list');
+
+btnMenu.addEventListener('click', ()=> {
+  menu.classList.toggle('active')
+})

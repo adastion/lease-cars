@@ -12,6 +12,12 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    
+    @include desktop-and-less {
+      position: relative;
+      align-items: center;
+      padding: 0 vw(40);
+    }
   }
 
   &--main {

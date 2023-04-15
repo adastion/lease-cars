@@ -1,11 +1,59 @@
 .menu {
+  min-width: 2.5rem;
+  min-height: 2.5rem;
+
+  @include desktop-and-less {
+    display: flex;
+    width: 100%;
+
+    &__btn-menu {
+      position: absolute;
+      right: vw(40);
+      width: 2.5rem;
+      height: 2.5rem;
+      z-index: 12;
+      background: repeating-linear-gradient(
+        $white,
+        $white 0.5rem,
+        transparent 0.5rem,
+        transparent 1rem,
+        $white 1rem,
+        $white 1.5rem,
+        transparent 1.5rem,
+        transparent 2rem,
+        $white 2rem,
+        $white 2.5rem
+      );
+      cursor: pointer;
+      transition: transform 0.3s;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+
   &__list {
     display: flex;
     justify-content: space-between;
     gap: 35px;
 
     @include desktop-and-less {
+      position: absolute;
+      top: -2rem;
+      right: 0;
+      left: 0;
+      width: 100%;
       gap: vw(35);
+      display: none;
+      flex-direction: column;
+      background: $pickled_bluewood_text;
+      padding: vw(40);
+      z-index: 11;
+    }
+
+    &.active {
+      display: flex;
     }
   }
 
@@ -15,7 +63,7 @@
     font-weight: 700;
 
     @include desktop-and-less {
-      font-size: vw(16);
+      font-size: vw(42);
     }
   }
 
